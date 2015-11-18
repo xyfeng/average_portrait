@@ -1,6 +1,18 @@
 # Average Portrait
 Uses openCV and Dlib to automatically align portraits in python, average the portraits using p5.js
 
+Portrait Average
+
+![portrait average](https://github.com/xyfeng/average_portrait/blob/master/result_avarage.png "portrait average")
+
+Portrait Detection
+
+![portrait detection](https://github.com/xyfeng/average_portrait/blob/master/result_detection.png "portrait detection")
+
+Portrait Swap
+
+![portrait swap](https://github.com/xyfeng/average_portrait/blob/master/result_swap.png "portrait swap")
+
 ## How to Use
 - Download [landmarks](http://sourceforge.net/projects/dclib/files/dlib/v18.10/shape_predictor_68_face_landmarks.dat.bz2)
 - Unzip it and move to `landmarks` folder
