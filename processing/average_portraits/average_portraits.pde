@@ -2,8 +2,6 @@
 // Exiftool
 // exiftool -csv -FileSize -ImageWidth -ImageHeight ../../../result_align/*.jpg  > metadata.csv
 
-import java.util.Arrays;
-
 int photosCount;
 Photo[] allPhotos;
 Pixel[] allPixels;
@@ -66,4 +64,3 @@ void drawPhoto(PImage img, int number) {
   }
   updatePixels();
 }
-

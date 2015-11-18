@@ -1,5 +1,5 @@
 # Average Portrait
-Uses openCV and Dlib to automatically align portraits in python, average the portraits using p5.js
+Uses openCV and dlib to automatically align portraits in python, average the portraits using processing & p5.js
 
 Portrait Average
 
