@@ -3,15 +3,15 @@ Uses openCV and Dlib to automatically align portraits in python, average the por
 
 Portrait Average
 
-![portrait average](https://github.com/xyfeng/average_portrait/blob/master/result_avarage.png "portrait average")
-
-Portrait Detection
-
-![portrait detection](https://github.com/xyfeng/average_portrait/blob/master/result_detection.png "portrait detection")
+![portrait average](https://raw.githubusercontent.com/xyfeng/average_portrait/master/result_average.png "portrait average")
 
 Portrait Swap
 
-![portrait swap](https://github.com/xyfeng/average_portrait/blob/master/result_swap.png "portrait swap")
+![portrait swap](https://raw.githubusercontent.com/xyfeng/average_portrait/master/result_swap.jpg "swap")
+
+Portrait Detection
+
+![portrait detection](https://raw.githubusercontent.com/xyfeng/average_portrait/master/result_detection.png "portrait detection")
 
 ## How to Use
 - Download [landmarks](http://sourceforge.net/projects/dclib/files/dlib/v18.10/shape_predictor_68_face_landmarks.dat.bz2)
