@@ -1,6 +1,5 @@
-// Reference
-// Exiftool
-// exiftool -csv -FileSize -ImageWidth -ImageHeight ../../../result_align/*.jpg  > metadata.csv
+//import gifAnimation.*;
+//GifMaker gifExport;
 
 int photosCount;
 Photo[] allPhotos;
@@ -11,6 +10,9 @@ void setup() {
   background(0);
   noStroke();
   frameRate(12);
+
+//  gifExport = new GifMaker(this, "../../result_animation.gif");
+//  gifExport.setRepeat(0);
 
   allPixels = new Pixel[width * height];
   for (int i=0; i<width*height; i++) {
@@ -23,12 +25,17 @@ void draw() {
   //background(0);
   if (frameCount <= allPhotos.length) {
     image(allPhotos[allPhotos.length - frameCount].img, 0, 0);
+//    gifExport.setDelay(2);
+//    gifExport.addFrame();
   } else if (frameCount <= allPhotos.length * 2 + 10 & frameCount > allPhotos.length + 10) {
     frameRate(6);
     Photo one = allPhotos[frameCount- allPhotos.length - 11];
     drawPhoto(one.img, frameCount - allPhotos.length - 10);
+//    gifExport.setDelay(1);
+//    gifExport.addFrame();
   } else if (frameCount == allPhotos.length * 2 + 11){
     saveFrame("../../result_average.png");
+//    gifExport.finish(); 
   }
 }
 

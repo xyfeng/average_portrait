@@ -1,7 +1,7 @@
 # Average Portrait
 Uses openCV and dlib to automatically align portraits in python, average the portraits using processing & p5.js  
 
-[Demo](http://xyfeng.github.io/average_portrait/)
+![portrait animation](https://raw.githubusercontent.com/xyfeng/average_portrait/master/result_animation.gif "portrait animation")  [Live Demo in P5](http://xyfeng.github.io/average_portrait/)
 
 Portrait Average
 
